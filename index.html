@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Fitness & Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>FitLife</h1>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>TRANSFORM YOUR BODY</h1>
+            <h2>TRANSFORM YOUR LIFE</h2>
+            <p>Join our fitness community and start your journey to a healthier lifestyle today.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn primary-btn">JOIN NOW</a>
+                <a href="#about" class="btn secondary-btn">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>ABOUT US</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="/placeholder.svg?height=400&width=600" alt="About FitLife">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>WELCOME TO FITLIFE</h3>
+                    <p>At FitLife, we believe fitness is not just about looking good, but feeling great and living your best life. Our state-of-the-art facilities and expert trainers are dedicated to helping you achieve your fitness goals.</p>
+                    <p>With over 10 years of experience, we've helped thousands of clients transform their bodies and lives through personalized training programs and nutrition guidance.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h4>Modern Equipment</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Expert Trainers</h4>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h4>Supportive Community</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>OUR SERVICES</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>GYM TRAINING</h3>
+                    <p>Access to state-of-the-art equipment and personalized workout plans to help you reach your fitness goals.</p>
+                    <div class="price">$49<span>/month</span></div>
+                    <a href="#contact" class="btn primary-btn">SELECT PLAN</a>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>YOGA CLASSES</h3>
+                    <p>Improve flexibility, reduce stress, and enhance your overall well-being with our expert-led yoga sessions.</p>
+                    <div class="price">$39<span>/month</span></div>
+                    <a href="#contact" class="btn primary-btn">SELECT PLAN</a>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>NUTRITION PLANS</h3>
+                    <p>Customized nutrition guidance to complement your fitness routine and maximize your results.</p>
+                    <div class="price">$59<span>/month</span></div>
+                    <a href="#contact" class="btn primary-btn">SELECT PLAN</a>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>PERSONAL TRAINING</h3>
+                    <p>One-on-one sessions with certified trainers who will help you achieve your fitness goals faster.</p>
+                    <div class="price">$99<span>/month</span></div>
+                    <a href="#contact" class="btn primary-btn">SELECT PLAN</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>OUR GALLERY</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="gallery-slider">
+                    <div class="gallery-slide active">
+                        <img src="/placeholder.svg?height=600&width=800" alt="Gym Training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="/placeholder.svg?height=600&width=800" alt="Yoga Class">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="/placeholder.svg?height=600&width=800" alt="Personal Training">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="/placeholder.svg?height=600&width=800" alt="Nutrition Consultation">
+                    </div>
+                </div>
+                <div class="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>TESTIMONIALS</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="/placeholder.svg?height=150&width=150" alt="Client 1">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"FitLife completely transformed my approach to fitness. The trainers are knowledgeable and supportive, and the community is amazing!"</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>Sarah Johnson</h4>
+                            <span>Member since 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="/placeholder.svg?height=150&width=150" alt="Client 2">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"The personal training sessions at FitLife have helped me achieve results I never thought possible. I'm stronger and more confident than ever!"</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h4>Michael Davis</h4>
+                            <span>Member since 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-img">
+                            <img src="/placeholder.svg?height=150&width=150" alt="Client 3">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"The yoga classes at FitLife have been a game-changer for my mental health and flexibility. The instructors are amazing and the atmosphere is so welcoming."</p>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h4>Emily Wilson</h4>
+                            <span>Member since 2019</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>CONTACT US</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form" data-aos="fade-right">
+                    <h3>GET IN TOUCH</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="contact-info" data-aos="fade-left">
+                    <h3>OUR INFORMATION</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Fitness Street, Wellness City, WC 12345</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@fitlife.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Mon-Fri: 6am-10pm, Sat-Sun: 8am-8pm</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573036704!2d-73.98784492426285!3d40.75798597138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1710126209000!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content" data-aos="zoom-in">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <p>Stay updated with our latest offers, fitness tips, and events.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn primary-btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>FitLife</h2>
+                    <p>Your journey to a healthier lifestyle starts here.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li>Gym Training</li>
+                        <li>Yoga Classes</li>
+                        <li>Nutrition Plans</li>
+                        <li>Personal Training</li>
+                        <li>Group Fitness</li>
+                        <li>Wellness Programs</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Wellness City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@fitlife.com</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FitLife. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
