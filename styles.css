@@ -148,11 +148,11 @@ header.scrolled .logo h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .logo h1 {
-  font-size: 28px;
+  font-size: 30px;
   color: var(--white-color);
   font-weight: 800;
 }
@@ -167,9 +167,10 @@ header.scrolled .logo h1 {
 
 .nav-links a {
   color: var(--white-color);
-  font-weight: 600;
+  font-weight: 800;
   position: relative;
   padding: 5px 0;
+  font-size: 20px;
 }
 
 .nav-links a::after {
@@ -219,7 +220,7 @@ header.scrolled .logo h1 {
   rgba(10, 10, 10, 1) 100%
 ),
 
-  url("/placeholder.svg?height=1080&width=1920") no-repeat center center / cover;
+  url("images/hero.webp") no-repeat center center / cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,6 +262,12 @@ header.scrolled .logo h1 {
   gap: 20px;
 }
 
+@media screen and (max-width: 410px) {
+  .primary-btn {
+display: none;
+  }
+  
+}
 /* About Section */
 .about-content {
   display: flex;
